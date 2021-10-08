@@ -1,0 +1,3 @@
+FILE_A_10_CCF.fastq
+FILE_B_34_YHU.fastq
+FILE_T_XX_78.fastq
