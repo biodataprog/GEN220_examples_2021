@@ -1,0 +1,34 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=6;
+TAXLABELS
+[1] 'YALI0_B00572g-t26_1-p1'
+[2] 'CAWG_02614-T-p1'
+[3] 'YGL125W'
+[4] 'YPL023C'
+[5] 'CAWG_06112-T-p1'
+[6] 'YALI0_B14465g-t26_1-p1'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=6 nsplits=13;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 4,
+	100	 5,
+	39	 4 5,
+	100	 6,
+	100	 1 2 3,
+	88	 1 3,
+	100	 3,
+	100	 1,
+	12	 2 3,
+	54	 5 6,
+	7	 4 6,
+	0	 1 2,
+;
+END; [Splits]
+
