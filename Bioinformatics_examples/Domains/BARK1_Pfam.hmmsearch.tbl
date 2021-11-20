@@ -1,0 +1,17 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Pkinase              PF00069.27   264 sp|P25098|ARBK1_HUMAN -            689   1.8e-70  237.4   0.0   1   1   1.2e-73   5.5e-70  235.8   0.0     2   264   192   453   191   453 0.94 Protein kinase domain
+PK_Tyr_Ser-Thr       PF07714.19   259 sp|P25098|ARBK1_HUMAN -            689   1.1e-27   97.1   0.0   1   1   3.5e-31   1.7e-27   96.5   0.0     3   249   193   436   191   439 0.84 Protein tyrosine and serine/threonine kinase
+RGS                  PF00615.21   118 sp|P25098|ARBK1_HUMAN -            689   3.6e-19   69.3   3.5   1   1   8.4e-23     4e-19   69.1   2.1     2   118    55   174    54   174 0.96 Regulator of G protein signaling domain
+PH                   PF00169.31   105 sp|P25098|ARBK1_HUMAN -            689   2.2e-11   44.3   0.1   1   1   8.1e-15   3.9e-11   43.5   0.1     2   103   560   650   559   652 0.93 PH domain
+#
+# Program:         hmmscan
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SCAN
+# Query file:      P25098.fasta
+# Target file:     /srv/projects/db/pfam/2021-03-19-Pfam34.0/Pfam-A.hmm
+# Option settings: hmmscan --domtblout BARK1_Pfam.hmmsearch.tbl --cut_ga /srv/projects/db/pfam/2021-03-19-Pfam34.0/Pfam-A.hmm P25098.fasta 
+# Current dir:     /bigdata/stajichlab/jstajich/teaching/GEN220/GEN220_examples/Bioinformatics_examples/Domains
+# Date:            Fri Nov 19 15:28:01 2021
+# [ok]

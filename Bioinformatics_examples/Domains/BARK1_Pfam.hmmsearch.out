@@ -1,0 +1,134 @@
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             P25098.fasta
+# target HMM database:             /srv/projects/db/pfam/2021-03-19-Pfam34.0/Pfam-A.hmm
+# per-dom hits tabular output:     BARK1_Pfam.hmmsearch.tbl
+# model-specific thresholding:     GA cutoffs
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       sp|P25098|ARBK1_HUMAN  [L=689]
+Description: Beta-adrenergic receptor kinase 1 OS=Homo sapiens OX=9606 GN=GRK2 PE=1 SV=2
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    1.8e-70  237.4   0.0    5.5e-70  235.8   0.0    1.8  1  Pkinase         Protein kinase domain
+    1.1e-27   97.1   0.0    1.7e-27   96.5   0.0    1.2  1  PK_Tyr_Ser-Thr  Protein tyrosine and serine/threonine kinase
+    3.6e-19   69.3   3.5      4e-19   69.1   2.1    1.9  1  RGS             Regulator of G protein signaling domain
+    2.2e-11   44.3   0.1    3.9e-11   43.5   0.1    1.4  1  PH              PH domain
+
+
+Domain annotation for each model (and alignments):
+>> Pkinase  Protein kinase domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.8   0.0   1.2e-73   5.5e-70       2     264 .]     192     453 ..     191     453 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 235.8 bits;  conditional E-value: 1.2e-73
+                            EEEEEEEEESSEEEEEEEETTTTEEEEEEEEECHCHCHHHH.HHHHHHHHHHHHHS...CTTB--EEEEEEESSEEEEEEE--TTEBH CS
+                Pkinase   2 ekleklGeGsfGkVykaveketgkivAvKkikkekakkkke.kkvlrEikilkklk...hpnivrlyevfeekdelylvleyveggel 85 
+                            ++++ +G+G+fG+Vy +++++tgk++A+K+++k+++k k+  + +l+E  +l  ++   +p+iv + ++f+++d+l ++l++++gg+l
+  sp|P25098|ARBK1_HUMAN 192 SVHRIIGRGGFGEVYGCRKADTGKMYAMKCLDKKRIKMKQGeTLALNERIMLSLVStgdCPFIVCMSYAFHTPDKLSFILDLMNGGDL 279
+                            67899*******************************9988867899**99999988888***************************** PP
+
+                            HHHHHHHSS--HHHHHHHHHHHHHHHHHHHHTTEE-SS-SGGGEEEETTTEEEE-SGTTSEESSSSCCBSCTTSGGGGS-HHHH.TTS CS
+                Pkinase  86 adllerkgslseeeakkiakqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelessskltsfvgtseYlAPEvl.ken 172
+                            + +l+++g++se++++++a++i+ gle++H++ vv+rDlKp+NiL+de+g+++i+D+Gla+ +++++  +  vgt+ Y+APEvl k+ 
+  sp|P25098|ARBK1_HUMAN 280 HYHLSQHGVFSEADMRFYAAEIILGLEHMHNRFVVYRDLKPANILLDEHGHVRISDLGLACDFSKKK-PHASVGTHGYMAPEVLqKGV 366
+                            *****************************************************************98.9***************8889 PP
+
+                            CBSHHHHHHHHHHHHHHHHHSS-STTTSSHHHHHHHHHHTHHHHHHHCTSHH...HHHTTS-HHHHHHHHHHT-SSGCCSTT.....H CS
+                Pkinase 173 eyskkvDvWslGvilyelltgkppfsgekgkekvekeldqlekilkilgetkeklpeakeiseeakdllkkllkkdpkkRlt.....a 255
+                             y++++D++slG++l++ll g+ pf+++k+k+  ++e+d++        + +++++ ++++s+e+++ll+ ll++d ++Rl+     a
+  sp|P25098|ARBK1_HUMAN 367 AYDSSADWFSLGCMLFKLLRGHSPFRQHKTKD--KHEIDRM--------TLTMAVELPDSFSPELRSLLEGLLQRDVNRRLGclgrgA 444
+                            99************************777766..6677772........24567899*************************999999 PP
+
+                            HHHHTSGGG CS
+                Pkinase 256 eellqhpyl 264
+                            +e++++p++
+  sp|P25098|ARBK1_HUMAN 445 QEVKESPFF 453
+                            999999997 PP
+
+>> PK_Tyr_Ser-Thr  Protein tyrosine and serine/threonine kinase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.5   0.0   3.5e-31   1.7e-27       3     249 ..     193     436 ..     191     439 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 96.5 bits;  conditional E-value: 3.5e-31
+                            EEEEEEEESSEEEEEEEEETTTTSTEEEEEEEEESTTS.SHHHHHHHHHHHHHHHTS....-BTTB--EEEEEESSSSEEEEEE--TT CS
+         PK_Tyr_Ser-Thr   3 lgkklGeGafGeVvegtlkgekekkevkVavKtlkeea.eeeekeefleeakimkkl....khpnivkllgvctkeepllivteyveg 85 
+                            +++ +G+G fGeV+ ++      ++    a+K+l+++  + ++ e +  + +im +l    + p iv +  +    ++l +++++++g
+  sp|P25098|ARBK1_HUMAN 193 VHRIIGRGGFGEVYGCRKA----DTGKMYAMKCLDKKRiKMKQGETLALNERIMLSLvstgDCPFIVCMSYAFHTPDKLSFILDLMNG 276
+                            6789**********99988....777788999995544033444444334444433322247899*********************** PP
+
+                            EBHHHHHHHTCTTTSEHHHHHHHHHHHHHHHHHHHHTTEEEST-SGGGEEEECTTEEEE-STTTHEETTTSSEEEETTSTCSGGGGS- CS
+         PK_Tyr_Ser-Thr  86 GdLlefLrkkekekltlkdllkfalqiAkGmeyLeskklvHrdlaarNvLlsenkvvkisDfGLardiekdseykkkeeaklpvkWma 173
+                            GdL+ +L ++    ++  d+  +a++i  G+e+++++ +v rdl   N+Ll+e+ +v+isD GLa d     + kk + +     +ma
+  sp|P25098|ARBK1_HUMAN 277 GDLHYHLSQH--GVFSEADMRFYAAEIILGLEHMHNRFVVYRDLKPANILLDEHGHVRISDLGLACDF----SKKKPHASVGTHGYMA 358
+                            *********9..99******************************************************....4444555667789*** PP
+
+                            HHHHHHSE.ESHHHHHHHHHHHHHHHHTTSSGTTTTSHHHH..HHHHHHTTEES-BBTTSBHHHHHHHHHHT-SSGGGS CS
+         PK_Tyr_Ser-Thr 174 pEslkekk.ftsksDvWsfGvllwEiftlgespypglsnee..vlekleegkrlekpekcpeelyelmkqcweedpeeR 249
+                            pE+l++++ + s++D +s G +l+ ++  g+sp+++ ++++   +++++    +e p++ ++el +l++  +++d ++R
+  sp|P25098|ARBK1_HUMAN 359 PEVLQKGVaYDSSADWFSLGCMLFKLLR-GHSPFRQHKTKDkhEIDRMTLTMAVELPDSFSPELRSLLEGLLQRDVNRR 436
+                            ******98899****************9.*****9995555115667788888999************99999999988 PP
+
+>> RGS  Regulator of G protein signaling domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.1   2.1   8.4e-23     4e-19       2     118 .]      55     174 ..      54     174 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 69.1 bits;  conditional E-value: 8.4e-23
+                            HHHHHTSHHHHHHHHHHHHHTTCT..HHHHHHHHHHHHHTSSHHHHHHHHHHHHHHHHTSTTST.TSSTS-HHHHHHHHHHHCSSSTT CS
+                    RGS   2 leslledqpgrslFreFlesefse..enlsFwlaveefkkakeqeelkkkakeIyneylapssp.kelnidkklreelekrlekeqps 86 
+                            +e++++++ g  lFr+F+ +  +e    ++F++++++++k +++ee++++ +eI+++y++++   ++   +k+ +e+++ +l k+q  
+  sp|P25098|ARBK1_HUMAN  55 FEKIFSQKLGYLLFRDFCLNHLEEarPLVEFYEEIKKYEKLETEEERVARSREIFDSYIMKELLaCSHPFSKSATEHVQGHLGKKQVP 142
+                            89******************99998899*******************************999875888******************** PP
+
+                            TTTTHHHHHHHHHHHHHHHHHHHHTSHHHHHH CS
+                    RGS  87 rklfeeaqeevfellakdsypkFlkselylrl 118
+                            ++lf+ + ee+++ l+ d ++kF++s++++r+
+  sp|P25098|ARBK1_HUMAN 143 PDLFQPYIEEICQNLRGDVFQKFIESDKFTRF 174
+                            *****************************986 PP
+
+>> PH  PH domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.5   0.1   8.1e-15   3.9e-11       2     103 ..     560     650 ..     559     652 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 43.5 bits;  conditional E-value: 8.1e-15
+                            EEEEEEEEECSSSSTSEEEEEEEEETTEEEEESSCTCTTECCEEEEEESTTEEEEEEECTTSSSSTSEEEEEESTSSSTEEEEEEESS CS
+                     PH   2 vkeGwLlkkgsgkkkswkkrwfvLkdsellyykndksekdkepkgsislsncevvevvatedpkrkfcfelriverngsrtyllqass 89 
+                            +++G+++k g+ + ++w++r+f+L+ ++l++  +      + p+  + ++++++ve++   + k++ c+ l+i   +g ++++lq++s
+  sp|P25098|ARBK1_HUMAN 560 IMHGYMSKMGNPFLTQWQRRYFYLFPNRLEWRGEG-----EAPQSLLTMEEIQSVEET---QIKERKCLLLKIR--GG-KQFILQCDS 636
+                            69***********************9999987777.....***************964...9*********999..99.********* PP
+
+                            HHHHHHHHHHHHHH CS
+                     PH  90 eeerkeWikaiqsa 103
+                            + e+ +W k +++a
+  sp|P25098|ARBK1_HUMAN 637 DPELVQWKKELRDA 650
+                            *********99876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (689 residues searched)
+Target model(s):                       19179  (3258786 nodes)
+Passed MSV filter:                       542  (0.0282601); expected 383.6 (0.02)
+Passed bias filter:                      438  (0.0228375); expected 383.6 (0.02)
+Passed Vit filter:                        45  (0.00234632); expected 19.2 (0.001)
+Passed Fwd filter:                         8  (0.000417123); expected 0.2 (1e-05)
+Initial search space (Z):              19179  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.49u 0.33s 00:00:00.82 Elapsed: 00:00:00.65
+# Mc/sec: 3409.89
+//
+[ok]

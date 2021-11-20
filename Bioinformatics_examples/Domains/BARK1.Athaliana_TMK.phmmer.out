@@ -1,0 +1,131 @@
+# phmmer :: search a protein sequence against a protein database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             P25098.fasta
+# target sequence database:        Athaliana_TMK.fa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       sp|P25098|ARBK1_HUMAN  [L=689]
+Description: Beta-adrenergic receptor kinase 1 OS=Homo sapiens OX=9606 GN=GRK2 PE=1 SV=2
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+    8.1e-20   58.7   0.0    1.2e-19   58.1   0.0    1.1  1  sp|Q9SIT1|TMK3_ARATH  Receptor-like kinase TMK3 OS=Arabidopsi
+    7.3e-18   52.3   0.1    1.1e-17   51.7   0.1    1.2  1  sp|Q9FYK0|TMK2_ARATH  Receptor-like kinase TMK2 OS=Arabidopsi
+    9.5e-18   51.9   0.0    1.4e-17   51.3   0.0    1.1  1  sp|Q9LK43|TMK4_ARATH  Receptor-like kinase TMK4 OS=Arabidopsi
+    4.6e-17   49.6   0.0    6.8e-17   49.0   0.0    1.1  1  sp|P43298|TMK1_ARATH  Receptor protein kinase TMK1 OS=Arabido
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|Q9SIT1|TMK3_ARATH  Receptor-like kinase TMK3 OS=Arabidopsis thaliana OX=3702 GN=TMK3 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.1   0.0   1.2e-19   1.2e-19     187     399 ..     581     798 ..     567     815 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 58.1 bits;  conditional E-value: 1.2e-19
+  sp|P25098|ARBK1_HUMAN 187 tmndfsvhriigrggfgevygcrkadtgkmyamkcldkkrikmkqgetlalnerimlslvstgdcpfivcmsyafhtpdklsfildlm 274
+                              n+fs ++i+grggfg vy  +  d g   a+k ++   +   +g t   +e  +l+ +      ++  + y +   ++l ++ + m
+   sp|Q9SIT1|TMK3_ARATH 581 VTNNFSEENILGRGGFGTVYKGELHD-GTKIAVKRMESSVVS-DKGLTEFKSEITVLTKM--RHRHLVALLGYCLDGNERL-LVYEYM 663
+                            4699****************987776.666799999987665.66888888887666655..566789999****999988.689999 PP
+
+  sp|P25098|ARBK1_HUMAN 275 nggdlhyhl...sqhgvfsead..mr.fyaaeiilglehmh...nrfvvyrdlkpanilldehghvrisdlgl...acdfskkkphas 350
+                              g l  hl    ++g     d   r   a ++  g+e++h   ++  ++rdlkp+nill +  + ++sd+gl   a d         
+   sp|Q9SIT1|TMK3_ARATH 664 PQGTLSQHLfhwKEEGRKP-LDwtRRlAIALDVARGVEYLHtlaHQSFIHRDLKPSNILLGDDMRAKVSDFGLvrlAPDGKYSIETRV 750
+                            9999988772214455432.23113314577999*****9943336789***********************8322455555555566 PP
+
+  sp|P25098|ARBK1_HUMAN 351 vgthgymapevlqkgvaydssadwfslgcmlfkllrghspfrqhktkdk 399
+                             gt gy+ape    g    +  d fslg +l++l+ g+  + + + +d 
+   sp|Q9SIT1|TMK3_ARATH 751 AGTFGYLAPEYAVTGRV-TTKVDIFSLGVILMELITGRKALDETQPEDS 798
+                            7**********999965.6899***************998877766664 PP
+
+>> sp|Q9FYK0|TMK2_ARATH  Receptor-like kinase TMK2 OS=Arabidopsis thaliana OX=3702 GN=TMK2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.7   0.1   1.1e-17   1.1e-17     143     394 ..     501     755 ..     480     780 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 51.7 bits;  conditional E-value: 1.1e-17
+  sp|P25098|ARBK1_HUMAN 143 pdlfqpyieeicqnlrgdvfqkfiesdkftrfcqwknvelnihltmn...dfsvhriigrggfgevygcrkadtgkmyamkcldkkri 227
+                             d f+  ie +c  +    f     +d   ++ +  n+ ++i++  +   +f   +i+grggfg vy  +  d g   a+k ++   i
+   sp|Q9FYK0|TMK2_ARATH 501 QDAFKITIENLCTGVSESGF---SGND--AHLGEAGNIVISIQVLRDatyNFDEKNILGRGGFGIVYKGELHD-GTKIAVKRMESSII 582
+                            55666666666655544333...2333..344555666666665432112689999***********987766.66679999999888 PP
+
+  sp|P25098|ARBK1_HUMAN 228 kmkqgetlalnerimlslvstgdcpfivcmsyafhtpdklsfildlmnggdlhyhl...sqhgvfs.eadmr.fyaaeiilglehmh. 309
+                              k  +    +e  +l+ v      ++v   y ++  ++l ++   m  g l  h+    ++g+   e   r + a ++  g+e++h 
+   sp|Q9FYK0|TMK2_ARATH 583 SGKGLD-EFKSEIAVLTRVR--HRNLVVLHGYCLEGNERL-LVYQYMPQGTLSRHIfywKEEGLRPlEWTRRlIIALDVARGVEYLHt 666
+                            766444.4456666666665..5568999******99998.57889999999877633367887642555552568899******994 PP
+
+  sp|P25098|ARBK1_HUMAN 310 ..nrfvvyrdlkpanilldehghvrisdlgl...acdfskkkphasvgthgymapevlqkgvaydssadwfslgcmlfkllrghspfr 392
+                              ++  ++rdlkp+nill +  h +++d+gl   a + ++       gt gy+ape    g    +  d +s+g +l++ll g+  + 
+   sp|Q9FYK0|TMK2_ARATH 667 laHQSFIHRDLKPSNILLGDDMHAKVADFGLvrlAPEGTQSIETKIAGTFGYLAPEYAVTGRV-TTKVDVYSFGVILMELLTGRKALD 753
+                            3336789**********************973325566677777788**********999965.6899***************98765 PP
+
+  sp|P25098|ARBK1_HUMAN 393 qh 394
+                              
+   sp|Q9FYK0|TMK2_ARATH 754 VA 755
+                            54 PP
+
+>> sp|Q9LK43|TMK4_ARATH  Receptor-like kinase TMK4 OS=Arabidopsis thaliana OX=3702 GN=TMK4 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.3   0.0   1.4e-17   1.4e-17     186     391 ..     573     783 ..     552     806 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 51.3 bits;  conditional E-value: 1.4e-17
+  sp|P25098|ARBK1_HUMAN 186 ltmndfsvhriigrggfgevygcrkadtgkmyamkcldkkrikmkqgetlalnerimlslvstgdcpfivcmsyafhtpdklsfildl 273
+                               n+fs  +i+grggfg vy+ +  d g   a+k ++   +  k g +    e  +l+        ++  + y  +  ++l ++ + 
+   sp|Q9LK43|TMK4_ARATH 573 QVTNNFSEDNILGRGGFGVVYAGELHD-GTKTAVKRMECAAMGNK-GMSEFQAEIAVLT--KVRHRHLVALLGYCVNGNERL-LVYEY 655
+                            45699****************987776.56678888777666544.4443334444444..45566789999****999988.6899* PP
+
+  sp|P25098|ARBK1_HUMAN 274 mnggdlhyhlsqhgvfseadmrf.....yaaeiilglehmhn...rfvvyrdlkpanilldehghvrisdlglacdfskkk...phas 350
+                            m  g+l  hl + + +  + + +      a ++  g+e++h+   +  ++rdlkp+nill +  + +++d+gl  +    k       
+   sp|Q9LK43|TMK4_ARATH 656 MPQGNLGQHLFEWSELGYSPLTWkqrvsIALDVARGVEYLHSlaqQSFIHRDLKPSNILLGDDMRAKVADFGLVKNAPDGKysvETRL 743
+                            *********98877655554433111126789999******73335689************************876655441114456 PP
+
+  sp|P25098|ARBK1_HUMAN 351 vgthgymapevlqkgvaydssadwfslgcmlfkllrghspf 391
+                             gt gy+ape    g    +  d +++g +l+++l g+  +
+   sp|Q9LK43|TMK4_ARATH 744 AGTFGYLAPEYAATGRV-TTKVDVYAFGVVLMEILTGRKAL 783
+                            8***********99965.6899*************998765 PP
+
+>> sp|P43298|TMK1_ARATH  Receptor protein kinase TMK1 OS=Arabidopsis thaliana OX=3702 GN=TMK1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.0   0.0   6.8e-17   6.8e-17     187     398 ..     584     800 ..     570     827 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 49.0 bits;  conditional E-value: 6.8e-17
+  sp|P25098|ARBK1_HUMAN 187 tmndfsvhriigrggfgevygcrkadtgkmyamkcldkkrikmkqgetlalnerimlslvstgdcpfivcmsyafhtpdklsfildlm 274
+                              n+fs  +i+g ggfg vy  +  d g   a+k ++   i  k g     +e  +l+        ++  + y +   +kl ++ + m
+   sp|P43298|TMK1_ARATH 584 VTNNFSSDNILGSGGFGVVYKGELHD-GTKIAVKRMENGVIAGK-GFAEFKSEIAVLT--KVRHRHLVTLLGYCLDGNEKL-LVYEYM 666
+                            5699****************987776.66679999998777644.5444455555555..5556778999*******9999.6899** PP
+
+  sp|P25098|ARBK1_HUMAN 275 nggdlhyhl...sqhgvfsea..dmrfyaaeiilglehmh...nrfvvyrdlkpanilldehghvrisdlglacdfskkkp...hasv 351
+                              g l  hl   s++g+           a ++  g+e++h   ++  ++rdlkp+nill +  + +++d+gl     + k        
+   sp|P43298|TMK1_ARATH 667 PQGTLSRHLfewSEEGLKPLLwkQRLTLALDVARGVEYLHglaHQSFIHRDLKPSNILLGDDMRAKVADFGLVRLAPEGKGsieTRIA 754
+                            *****999844456776543311334568899******9943336789***********************97655544431113457 PP
+
+  sp|P25098|ARBK1_HUMAN 352 gthgymapevlqkgvaydssadwfslgcmlfkllrghspfrqhktkd 398
+                            gt gy+ape    g    +  d +s+g +l++l+ g+  + + + ++
+   sp|P43298|TMK1_ARATH 755 GTFGYLAPEYAVTGRV-TTKVDVYSFGVILMELITGRKSLDESQPEE 800
+                            **********999965.6899***************98877666554 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (689 nodes)
+Target sequences:                          4  (3699 residues searched)
+Passed MSV filter:                         4  (1); expected 0.1 (0.02)
+Passed bias filter:                        4  (1); expected 0.1 (0.02)
+Passed Vit filter:                         4  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         4  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  4  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.07u 0.01s 00:00:00.08 Elapsed: 00:00:00.07
+# Mc/sec: 32.94
+//
+[ok]
