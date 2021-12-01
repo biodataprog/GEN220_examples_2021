@@ -1,0 +1,210 @@
+BLASTP 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: swissprot-2021_01
+           564,277 sequences; 203,340,877 total letters
+
+
+
+Query= tr|E3Q6S8|E3Q6S8_COLGM RNAse P Rpr2/Rpp21/SNM1 subunit
+domain-containing protein OS=Colletotrichum graminicola (strain
+M1.001 / M2 / FGSC 10212) OX=645133 GN=GLRG_02386 PE=4 SV=1
+
+Length=172
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+Q9Y813 Ribonuclease P protein subunit rpr2 OS=Schizosaccharomyces...  60.5       3e-11
+Q5JEC9 Ribonuclease P protein component 4 OS=Thermococcus kodakar...  48.9       1e-06
+Q9H633 Ribonuclease P protein subunit p21 OS=Homo sapiens OX=9606...  46.6       1e-05
+Q8R040 Ribonuclease P protein subunit p21 OS=Mus musculus OX=1009...  46.6       1e-05
+Q5TM57 Ribonuclease P protein subunit p21 OS=Macaca mulatta OX=95...  46.2       1e-05
+Q8TTY5 Ribonuclease P protein component 4 OS=Methanosarcina aceti...  40.8       5e-04
+Q8TGY1 Ribonuclease P protein component 4 OS=Methanopyrus kandler...  41.2       6e-04
+C6A4A4 Ribonuclease P protein component 4 OS=Thermococcus sibiric...  41.2       7e-04
+
+
+>Q9Y813 Ribonuclease P protein subunit rpr2 OS=Schizosaccharomyces pombe 
+(strain 972 / ATCC 24843) OX=284812 GN=rpr2 PE=3 SV=1
+Length=107
+
+ Score = 60.5 bits (145),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 43/131 (33%), Positives = 63/131 (48%), Gaps = 31/131 (24%)
+
+Query  8    SLPNRHAYTRVSYLHQAAAYLA-TVQSPTSDSTTNSSQPGHAPHAVDHERCLETNETVAR  66
+            S  ++  + RVSYL+QA+  L   VQ PT                            ++R
+Sbjct  2    STKSKDQHARVSYLYQASQLLFRNVQEPT----------------------------LSR  33
+
+Query  67   RFVSDIRAVSLKAQIRPSPSLKQMMCKYCDSLLVEGKTCSTTVENASKGGKKPWADVMVT  126
+             ++S  + VS K+ +R  P +K+ +CK C+SLLV GK+CS   E  S+  K P  D ++ 
+Sbjct  34   HYISTAKDVSQKSVMRIHPDIKRTICKGCNSLLVPGKSCSIRFEEPSR--KNPSIDRVLW  91
+
+Query  127  KCKTCGNVKRF  137
+             CK C   KRF
+Sbjct  92   ICKKCAFKKRF  102
+
+
+>Q5JEC9 Ribonuclease P protein component 4 OS=Thermococcus kodakarensis 
+(strain ATCC BAA-918 / JCM 12380 / KOD1) OX=69014 GN=rnp4 
+PE=3 SV=1
+Length=132
+
+ Score = 48.9 bits (115),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 30/95 (32%), Positives = 46/95 (48%), Gaps = 7/95 (7%)
+
+Query  55   ERCLETNETVARRFVSDIRAVSLKAQIRPSPSLKQMMCKYCDSLLVEGKTCSTTVENASK  114
+            ER    +  +A R+V    +V  KA+IR     K+  CK C S LV G      + +   
+Sbjct  30   ERVFPYSPELANRYVEIALSVQQKAKIRMPRKWKRRYCKKCHSFLVPGVNARVRLRD---  86
+
+Query  115  GGKKPWADVMVTKCKTCGNVKRFPVSAPRQKRRPF  149
+               KP+  V++T C  CGN+ R+P    ++ RR +
+Sbjct  87   ---KPYPHVVIT-CLNCGNIMRYPYLREKKARRKY  117
+
+
+>Q9H633 Ribonuclease P protein subunit p21 OS=Homo sapiens OX=9606 GN=RPP21 
+PE=1 SV=1
+Length=154
+
+ Score = 46.6 bits (109),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 35/127 (28%), Positives = 55/127 (43%), Gaps = 32/127 (25%)
+
+Query  11   NRHAYTRVSYLHQAAAYLATVQSPTSDSTTNSSQPGHAPHAVDHERCLETNETVARRFVS  70
+            +R A+ R+++L+QAA                     H   A D E     N+ +AR +  
+Sbjct  7    DREAFQRLNFLYQAA---------------------HCVLAQDPE-----NQALARFYCY  40
+
+Query  71   DIRAVSLKAQIRPSPSLKQMMCKYCDSLLVEGKTCSTTVENASKGGKKPWADVMVTKCKT  130
+              R ++ +  +R  PS+K+ +C+ C SLLV G TC+           + W    V  C T
+Sbjct  41   TERTIAKRLVLRRDPSVKRTLCRGCSSLLVPGLTCTQRQRRCR---GQRWT---VQTCLT  94
+
+Query  131  CGNVKRF  137
+            C   +RF
+Sbjct  95   CQRSQRF  101
+
+
+>Q8R040 Ribonuclease P protein subunit p21 OS=Mus musculus OX=10090 GN=Rpp21 
+PE=1 SV=2
+Length=150
+
+ Score = 46.6 bits (109),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 42/154 (27%), Positives = 68/154 (44%), Gaps = 34/154 (22%)
+
+Query  11   NRHAYTRVSYLHQAAAYLATVQSPTSDSTTNSSQPGHAPHAVDHERCLETNETVARRFVS  70
+            +R A+ R+S+L+QAA +    Q+P +              A+    C  T +T+A+R V 
+Sbjct  7    DREAFQRLSFLYQAA-HCVLSQNPEN-------------QALARFYC-HTEKTIAKRLV-  50
+
+Query  71   DIRAVSLKAQIRPSPSLKQMMCKYCDSLLVEGKTCSTTVENASKGGKKPWADVMVTKCKT  130
+                      +R  PS+K+ +C+ C SLL+ G TC+             W    V  C T
+Sbjct  51   ----------LRQDPSVKRTLCRSCSSLLIPGLTCTQRQRRRKGQR---WT---VQTCLT  94
+
+Query  131  CGNVKRFPVSAPRQKRRPFREQKAVEGQ-DTTPA  163
+            C   +RF ++ P+      R +  +E Q D  P+
+Sbjct  95   CQRSQRF-LNDPKHLLWGDRPEAQLENQADINPS  127
+
+
+>Q5TM57 Ribonuclease P protein subunit p21 OS=Macaca mulatta OX=9544 
+GN=RPP21 PE=3 SV=1
+Length=154
+
+ Score = 46.2 bits (108),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 35/127 (28%), Positives = 55/127 (43%), Gaps = 32/127 (25%)
+
+Query  11   NRHAYTRVSYLHQAAAYLATVQSPTSDSTTNSSQPGHAPHAVDHERCLETNETVARRFVS  70
+            +R A+ R+++L+QAA                     H   A D E     N+ +AR +  
+Sbjct  7    DREAFQRLNFLYQAA---------------------HCVLAQDPE-----NQALARFYCH  40
+
+Query  71   DIRAVSLKAQIRPSPSLKQMMCKYCDSLLVEGKTCSTTVENASKGGKKPWADVMVTKCKT  130
+              R ++ +  +R  PS+K+ +C+ C SLLV G TC+           + W    V  C T
+Sbjct  41   TERTIAKRLVLRRDPSVKRTLCRGCSSLLVPGLTCTQRQRRCR---GQRWT---VQTCLT  94
+
+Query  131  CGNVKRF  137
+            C   +RF
+Sbjct  95   CQRSQRF  101
+
+
+>Q8TTY5 Ribonuclease P protein component 4 OS=Methanosarcina acetivorans 
+(strain ATCC 35395 / DSM 2834 / JCM 12185 / C2A) OX=188937 
+GN=rnp4 PE=3 SV=1
+Length=107
+
+ Score = 40.8 bits (94),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 22/78 (28%), Positives = 37/78 (47%), Gaps = 10/78 (13%)
+
+Query  61   NETVARRFVSDIRAVSLKAQIRPSPSLKQMMCKYCDSLLVEGKTCSTTVENASKGGKKPW  120
+            N   +RR+V  IR +S++ +I     +K  +CK+C + LV G      ++N         
+Sbjct  35   NPERSRRYVQLIRNISMRNRISIPRDIKSRICKHCYAFLVPGSNARYRLKNG--------  86
+
+Query  121  ADVMVTKCKTCGNVKRFP  138
+               +V  C+ CG   R+P
+Sbjct  87   --YLVISCEQCGKEMRYP  102
+
+
+>Q8TGY1 Ribonuclease P protein component 4 OS=Methanopyrus kandleri (strain 
+AV19 / DSM 6324 / JCM 9639 / NBRC 100938) OX=190192 GN=rnp4 
+PE=3 SV=1
+Length=128
+
+ Score = 41.2 bits (95),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 32/112 (29%), Positives = 53/112 (47%), Gaps = 15/112 (13%)
+
+Query  55   ERCLETNETV-------ARRFVSDIRAVSLKAQIRPSPSLKQMMCKYCDSLLVEGKTCST  107
+            ER L    TV       ARR+V   R +++KA+++    LK+  CK C++ L+ G T   
+Sbjct  23   ERLLRLARTVYYEDPDRARRYVELARRIAMKARVKLPKHLKRSFCKRCNTPLIPGVTARV  82
+
+Query  108  TVENASKGGKKPWADVMVTKCKTCGNVKRFPVSAPRQKRRPFREQKAVEGQD  159
+             +    +  + P   V    C  CG + R+P     ++RR  R  + V+ +D
+Sbjct  83   RL----RQNRMPHVSVT---CLECGYIYRYPYLREVKERRR-RHMEGVKDRD  126
+
+
+>C6A4A4 Ribonuclease P protein component 4 OS=Thermococcus sibiricus 
+(strain DSM 12597 / MM 739) OX=604354 GN=rnp4 PE=3 SV=1
+Length=120
+
+ Score = 41.2 bits (95),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 27/84 (32%), Positives = 40/84 (48%), Gaps = 7/84 (8%)
+
+Query  55   ERCLETNETVARRFVSDIRAVSLKAQIRPSPSLKQMMCKYCDSLLVEGKTCSTTVENASK  114
+            ER    ++ +A R+V    AV  KA++R     K+  CK C S LV G        NA  
+Sbjct  30   ERVFAYDKELANRYVEIALAVQQKAKVRMPRKWKRRYCKKCHSFLVPG-------VNARV  82
+
+Query  115  GGKKPWADVMVTKCKTCGNVKRFP  138
+              ++     +V KC  CG++ R+P
+Sbjct  83   RLRQKRMPHVVIKCLECGHIMRYP  106
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.123    0.362    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 8758765234
+
+
+  Database: swissprot-2021_01
+    Posted date:  Mar 22, 2021  9:22 PM
+  Number of letters in database: 203,340,877
+  Number of sequences in database:  564,277
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
